@@ -1,0 +1,141 @@
+# Compile of new.v was successful.
+# Compile of test.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.stimulus
+# vsim -gui work.stimulus 
+# Start time: 01:13:52 on Sep 05,2022
+# Loading work.stimulus
+# Loading work.ripple_rarry_counter
+# Loading work.T_FF
+# Loading work.D_FF
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$mointor' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus File: C:/Users/shakil ahmed/Desktop/veri/test.v Line: 24
+add wave -position insertpoint  \
+sim:/stimulus/clk \
+sim:/stimulus/reset \
+sim:/stimulus/q
+run
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$mointor'
+#    Time: 0 ps  Iteration: 0  Process: /stimulus/#INITIAL#23 File: C:/Users/shakil ahmed/Desktop/veri/test.v Line: 24
+run
+run
+# ** Note: $finish    : C:/Users/shakil ahmed/Desktop/veri/test.v(21)
+#    Time: 225 ps  Iteration: 0  Instance: /stimulus
+# 1
+# Break in Module stimulus at C:/Users/shakil ahmed/Desktop/veri/test.v line 21
+add dataflow  \
+sim:/stimulus/clk \
+sim:/stimulus/reset \
+sim:/stimulus/q
+# WARNING: No extended dataflow license exists
+# No drivers or ports for clk
+# No drivers or ports for reset
+add dataflow sim:/stimulus/*
+add dataflow  \
+sim:/stimulus/clk \
+sim:/stimulus/reset \
+sim:/stimulus/q
+# No drivers or ports for clk
+# No drivers or ports for reset
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add list -r /*
+run
+run
+run
+run
+quit -sim
+# End time: 01:20:35 on Sep 05,2022, Elapsed time: 0:06:43
+# Errors: 1, Warnings: 12
+# Compile of new.v failed with 2 errors.
+# Compile of test.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of new.v failed with 2 errors.
+# Compile of test.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of new.v failed with 2 errors.
+# Compile of test.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of new.v was successful.
+# Compile of test.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of new.v was successful.
+# Compile of test.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.stimulus1
+# vsim -gui work.stimulus1 
+# Start time: 01:31:31 on Sep 05,2022
+# Loading work.stimulus1
+# Loading work.not_gate
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'b'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus1/n1 File: C:/Users/shakil ahmed/Desktop/veri/new.v Line: 11
+# Error loading design
+# End time: 01:31:31 on Sep 05,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 6
+vsim -gui work.stimulus1
+# vsim -gui work.stimulus1 
+# Start time: 01:31:57 on Sep 05,2022
+# Loading work.stimulus1
+# Loading work.not_gate
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'b'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus1/n1 File: C:/Users/shakil ahmed/Desktop/veri/new.v Line: 11
+# Error loading design
+# End time: 01:31:57 on Sep 05,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of new.v was successful.
+# Compile of test.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.stimulus1
+# vsim -gui work.stimulus1 
+# Start time: 01:34:20 on Sep 05,2022
+# Loading work.stimulus1
+# Loading work.not_gate
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'b'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus1/n1 File: C:/Users/shakil ahmed/Desktop/veri/new.v Line: 12
+# Error loading design
+# End time: 01:34:20 on Sep 05,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of new.v was successful.
+# Compile of test.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.stimulus1
+# vsim -gui work.stimulus1 
+# Start time: 01:38:52 on Sep 05,2022
+# Loading work.stimulus1
+# Loading work.not_gate
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'b'.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus1/n2 File: C:/Users/shakil ahmed/Desktop/veri/new.v Line: 12
+# Error loading design
+# End time: 01:38:53 on Sep 05,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of new.v was successful.
+# Compile of test.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.stimulus1
+# vsim -gui work.stimulus1 
+# Start time: 01:46:07 on Sep 05,2022
+# Loading work.stimulus1
+# Loading work.not_gate
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$mointor' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus1 File: C:/Users/shakil ahmed/Desktop/veri/new.v Line: 21
+add wave -position insertpoint  \
+sim:/stimulus1/b \
+sim:/stimulus1/a
+run
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$mointor'
+#    Time: 0 ps  Iteration: 0  Process: /stimulus1/#INITIAL#20 File: C:/Users/shakil ahmed/Desktop/veri/new.v Line: 21
+run
+# End time: 01:47:47 on Sep 05,2022, Elapsed time: 0:01:40
+# Errors: 1, Warnings: 3

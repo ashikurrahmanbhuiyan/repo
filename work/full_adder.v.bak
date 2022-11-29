@@ -1,0 +1,13 @@
+module full_adder(cout,sum,a,b,cin);
+output cout,sum;
+input a,b,cin;
+wire x,y,z;
+
+assign x=a^b;
+assign y=a&b;
+assign z=x&cin;
+or x5(cout,y,z);
+assign sum=x^cin;
+
+endmodule
+

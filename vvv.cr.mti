@@ -1,0 +1,21 @@
+{C:/Users/shakil ahmed/Desktop/veri/test.v} {1 {vlog -work work -stats=none {C:/Users/shakil ahmed/Desktop/veri/test.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module stimulus
+-- Compiling module ripple_rarry_counter
+-- Compiling module T_FF
+-- Compiling module D_FF
+
+Top level modules:
+	stimulus
+
+} {} {}} {C:/Users/shakil ahmed/Desktop/veri/new.v} {1 {vlog -work work -stats=none {C:/Users/shakil ahmed/Desktop/veri/new.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module not_gate
+
+Top level modules:
+	not_gate
+
+} {} {}} {C:/Users/shakil ahmed/Desktop/veri/test2.v} {1 {vlog -work work -stats=none {C:/Users/shakil ahmed/Desktop/veri/test2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}}

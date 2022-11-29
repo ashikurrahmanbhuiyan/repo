@@ -1,0 +1,47 @@
+{C:/Users/shakil ahmed/Desktop/veri/ripple_rarry.v} {1 {vlog -work work -stats=none {C:/Users/shakil ahmed/Desktop/veri/ripple_rarry.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ripple_rarry_counter
+-- Compiling module T_FF
+-- Compiling module jk_test
+-- Compiling module jk_ff
+-- Compiling module D_FF
+
+Top level modules:
+	ripple_rarry_counter
+	jk_test
+
+} {} {}} {C:/Users/shakil ahmed/Desktop/veri/test.v} {1 {vlog -work work -stats=none {C:/Users/shakil ahmed/Desktop/veri/test.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module binary_toGray
+-- Compiling module gray_to_binary
+-- Compiling module magnitude_comparator_2bit
+
+Top level modules:
+	binary_toGray
+	gray_to_binary
+	magnitude_comparator_2bit
+
+} {} {}} {C:/Users/shakil ahmed/Desktop/veri/work/full_adder.v} {1 {vlog -work work -stats=none {C:/Users/shakil ahmed/Desktop/veri/work/full_adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module full_adder
+-- Compiling module full_adder_4bit
+-- Compiling module stimulate_full_adder
+
+Top level modules:
+	stimulate_full_adder
+
+} {} {}} {C:/Users/shakil ahmed/Desktop/veri/work/jk_flipflop.v} {0 {vlog -work work -stats=none {C:/Users/shakil ahmed/Desktop/veri/work/jk_flipflop.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module jk_flipflop
+** Error: (vlog-13069) C:/Users/shakil ahmed/Desktop/veri/work/jk_flipflop.v(19): near "=": syntax error, unexpected '='.
+** Error: C:/Users/shakil ahmed/Desktop/veri/work/jk_flipflop.v(19): (vlog-13205) Syntax error found in the scope following 'q'. Is there a missing '::'?
+
+} {4.0 6.0} {}} {C:/Users/shakil ahmed/Desktop/veri/work/sr_latch.v} {1 {vlog -work work -stats=none {C:/Users/shakil ahmed/Desktop/veri/work/sr_latch.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sr_latch
+-- Compiling module simulate_sr_latch
+
+Top level modules:
+	simulate_sr_latch
+
+} {} {}}
